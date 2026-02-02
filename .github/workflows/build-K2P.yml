@@ -1,4 +1,4 @@
-name: build-K2P
+name: build-MI-R3P
 
 on: 
   #push:
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        target: [K2P]
+        target: [MI-R3P]
         toolchain: [mipsel-linux-musl]
     steps:
       - uses: actions/checkout@v3
